@@ -60,21 +60,21 @@
 			</Component>
 
 
-			<!-- Product DLL -->
-			<Component Id="ProductDLLComponent">
+			<!-- Inventory Value Calculator DLL -->
+			<Component Id="InventoryValueCalculatorDLLComponent">
 
-				<File Id="ProductDLLFile"
-                      Source="..\..\Inventory Management System\x64\Debug\Product.dll"
+				<File Id="InventoryValueCalculatorDLLFile"
+                      Source="..\..\Inventory Management System\x64\Debug\InventoryValueCalculator.dll"
                       KeyPath="yes" />
 
 			</Component>
 
 
-			<!-- Inventory DLL -->
-			<Component Id="InventoryDLLComponent">
+			<!-- Stock Management DLL -->
+			<Component Id="StockManagementDLLComponent">
 
-				<File Id="InventoryDLLFile"
-                      Source="..\..\Inventory Management System\x64\Debug\Inventory.dll"
+				<File Id="StockManagementDLLFile"
+                      Source="..\..\Inventory Management System\x64\Debug\StockManagement.dll"
                       KeyPath="yes" />
 
 			</Component>
