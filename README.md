@@ -7,8 +7,8 @@ Inventory Management System deployment project for SWE40006 Software Deployment 
 The project consists of:
 
 - Inventory Management System - Main C++ application
-- Product.dll - Calculates product inventory value
-- Inventory.dll - Handles stock-in and stock-out operations
+- InventoryValueCalculator.dll - Calculates product inventory value
+- StockManagement.dll - Handles stock-in and stock-out operations
 - WiX Installer - Packages the application and DLL dependencies into an MSI installer
 
 ## Requirements
@@ -40,7 +40,7 @@ The project consists of:
 The WiX installer deploys:
 
 - Inventory Management System.exe
-- Product.dll
-- Inventory.dll
+- InventoryValueCalculator.dll
+- StockManagement.dll
 
 The application was successfully built, installed and tested on Windows.
