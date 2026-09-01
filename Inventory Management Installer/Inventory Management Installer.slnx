@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Inventory Management Installer/Inventory Management Installer.wixproj" Id="85e47b52-7509-47c5-afc5-58ad7dea504b">
+    <Build />
+  </Project>
+</Solution>
