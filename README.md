@@ -23,12 +23,13 @@ The project consists of:
 ### 1. Build the C++ Application
 
 1. Open `Inventory Management System/Inventory Management System.slnx`.
-2. Build the solution.
-3. The following files will be generated in `x64/Debug`:
+2. Select `Debug` and `x64` in Visual Studio.
+3. Build the solution.
+4. The following files will be generated in `x64/Debug`:
    - Inventory Management System.exe
-   - Product.dll
-   - Inventory.dll
-
+   - InventoryValueCalculator.dll
+   - StockManagement.dll
+     
 ### 2. Build the WiX Installer
 
 1. Open `Inventory Management Installer/Inventory Management Installer.slnx`.
